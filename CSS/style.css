@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+    font-size:large ;
+    font-weight: bolder;
+    background-image:url(../imagenes/fondo.jpg) ;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+header{
+    height: 65px;
+    /*background-color: rgba(45, 45, 122, 0.849);*/
+    color: yellowgreen;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    background-color: rgba(85, 15, 85, 0.26) ;
+
+}
+.imagen-rodri{
+    height:250px;
+    border-style:inset;
+    border-color:rgb(68, 22, 68) ;
+    border-radius: 10px 25px;
+}
+.uno{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(85, 15, 85, 0.61) ;
+    color: yellowgreen;
+    
+}
+.caja-uno{
+    margin-top: 1%;
+    /*
+    flex-direction: row;*/
+    width: 50%;
+    height: 50%;
+    display: flex;
+    
+}
+.caja-imagen{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    padding-top: 18%;
+   
+}
+.caja-presentacion{
+    width: 60%;
+    display: inline;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 25%;
+}
+.maxi{
+    color: yellowgreen;
+}
+.dos{
+    display: flex;
+    justify-content:center;
+    background-color: rgba(85, 15, 85, 0.61) ;
+    color: rgb(187, 252, 57);
+    flex-direction:column ;
+    align-items:center;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    padding-top: 5%;
+}
+.cursos{
+    padding-right: 15%;
+}
+.tecnologias{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.certificados{
+    height: 200px;
+    justify-content: center;
+    margin: auto; 
+}
+.caja-certificados{
+    padding-bottom: 10px;
+}
+#github{
+    color: yellowgreen;
+}
+.link{
+    color: yellowgreen;
+}
+
+.logo{
+    /*background-color: rgb(25, 25, 68);*/
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 10px;
+}
+footer{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(85, 15, 85, 0.26) ;
+    color: yellowgreen;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+.caja-footer{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
