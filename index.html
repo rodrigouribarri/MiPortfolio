@@ -4,66 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="icon" href="imagenes/fondo.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="icon" href="imagenes/fondo.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Rodri</title>
 </head>
 <body>
     <header>
         <h1>¡Bienvenido a mi portfolio!</h1>
     </header>
-    <section class="uno">
-         <div class="caja-uno">
+    <div class="uno">
+        <div class="caja-uno">
             <div class="caja-imagen">
-                <img src="imagenes/rodri.jpg" alt="Foto Rodri" class="imagen-rodri">
+                <img src="imagenes/rodri-1.jpg" alt="Foto Rodri" class="imagen-rodri">
             </div>
             <div class="caja-presentacion">
-                <h2>Hola, ¡gracias estar acá! A continuación voy a contarte un poquito sobre mí...</h2>
-                <p>Me llamo Rodrigo Martin y soy estudiante de programación. Actualmente me encuentro cursando el tercer nivel de Programación con C# en <a href="https://maxiprograma.com/" target="_blank" class="maxi"> <strong >Maxi Programa</strong></a>. En el segundo cuatrimestre de 2023 comenzaré a cursar la Tecnicatura Universitaria en Programación que dicta la UTN Avellaneda. Además, realicé un curso en Educación IT sobre bases de datos y SQL, y estoy aprendiendo de forma autónoma HTML5, CSS y JavaScript.
-                </p>
+                <p>¡Hola! Soy Rodrigo, un entusiasta estudiante de programación en constante búsqueda de conocimiento y desafíos. Mi viaje en el mundo del desarrollo  ha comenzado con sólidas bases adquiridas en diversos cursos y continúa con mis estudios universitarios en la UTN Avellaneda.
+                Aunque mi trayectoria laboral está en sus inicios, he canalizado mi entusiasmo hacia proyectos universitarios y aplicaciones que he creado, demostrando mi habilidad para aplicar rápidamente los conocimientos adquiridos.
+                <br> Lo que más me motiva es la infinita posibilidad de aprendizaje en el campo de la programación. Mi fascinación por lo nuevo me impulsa a explorar constantemente, y veo cada desafío como una oportunidad para crecer. Mi meta actual es dar el salto al mundo laboral como desarrollador, con un fuerte interés en el área backend. Soy conocido por ser respetuoso, trabajador de equipo, empático y responsable, cualidades que considero esenciales para un entorno colaborativo y de crecimiento mutuo. Estoy ansioso por enfrentar nuevos desafíos y contribuir con entusiasmo a proyectos innovadores.<br> ¡Acompáñame en mi viaje hacia nuevas experiencias y logros!</p>
             </div>
         </div>
-     </section>
-    <section class="dos">
+    </div>
+    <div class="dos">
         <div class="cursos">
             <h2>Cursos realizados</h2>
-            <ul>
+            <ul id="lista-cursos">
                 <li>Introducción a Bases de datos y SQL</li>
                 <li>Introducción a la programación con C#</li>
                 <li>Programaión con C# Nivel 1: desde cero</li>
                 <li>Programaión con C# Nivel 2: POO + .NET + SQL</li>
                 <li>Programaión con C# Nivel 3: WEB ASP .NET parte 1 (cursando)</li>
             </ul>
+            <br>
+            <p>Actualmente estoy realizando, además de la carrera como técnico universitario en programación, el tercer nivel de Programación con C# en <a href="https://maxiprograma.com/" target="_blank" class="maxi"> <strong >Maxi Programa</strong></a>. También, realicé un curso en Educación IT sobre bases de datos y SQL, y estoy aprendiendo de forma autónoma HTML5, CSS y algo de JavaScript.</p>
+            <p>Te invito a mi perfil de <a href="https://github.com/rodrigouribarri" target="_blank" id="github">GitHub</a> para ver los proyectos que realicé</p>
         </div>
         <div class="conocimientos">
             <h2> Conocimientos y aptitudes</h2>
-            <p>Tengo conocimientos en las siguientes tecnologías: </p>
-            <div class="caja-tecnologias">
-                <img src="imagenes/logoCSharp.png" alt="CSharp" class="tecnologias">
-                <img src="imagenes/logo_sql-server.png" alt="SqlServer" class="tecnologias">
-                <img src="imagenes/MySQL-Logo.jpg" alt="MysqWorkbench" class="tecnologias">
-                <img src="imagenes/html.png" alt="HTML" class="tecnologias">
-                <img src="imagenes/css.png" alt="CSS" class="tecnologias">
-            </div>         
+                <p>Tengo conocimientos en las siguientes tecnologías: </p>
+                <div class="caja-tecnologias">
+                    <img src="imagenes/logoCSharp.png" alt="CSharp" class="tecnologias">
+                    <img src="imagenes/aspnet.png" alt="ASP .NET" class="tecnologias">
+                    <img src="imagenes/logo_sql-server.png" alt="SqlServer" class="tecnologias">
+                </div>
+                <div class="caja-tecnologias">
+                    <img src="imagenes/MySQL-Logo.jpg" alt="MysqWorkbench" class="tecnologias">
+                    <img src="imagenes/html.png" alt="HTML" class="tecnologias">
+                    <img src="imagenes/css.png" alt="CSS" class="tecnologias">
+                </div>
+        </div>         
+        <div class="certificados">
+            <div class="caja-certificados">
+                <h2>Mis certificados</h2>
+                <div id="carrouselCertificados" class="carousel carousel-dark slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/CsharpInicial.png" class="d-block w-100" alt="Certificado Introducción a la programación con C#" style="height: 300px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/CsharpNivel1.png" class="d-block w-100" alt="Certificado Curso C# nivel 1" style="height: 300px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/CsharpNivel2.png" class="d-block w-100" alt="Certificado Curso C# nivel 2" style="height: 300px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/bases-SQL.png" class="d-block w-100" alt="Certificado Introducción a bases de datos y SQL" style="height: 300px;">
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carrouselCertificados" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carrouselCertificados" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <div class="proyectos">
-            <p>
-                Te invito a mi perfil de <a href="https://github.com/rodrigouribarri" target="_blank" id="github">GitHub</a> para ver los proyectos que realicé
-            </p>
-        </div>
-        <div class="caja-certificados">
-            <h2>Mis certificados</h2>
-            <img src="imagenes/bases-SQL.png" alt="Certificado Introducción a bases de datos y SQL" class="certificados">
-            <img src="imagenes/CsharpInicial.png" alt="Certificado Introducción a la programación con C#" class="certificados">
-            <img src="imagenes/CsharpNivel1.png" alt="Certificado Curso C# nivel 1" class="certificados">
-            <img src="imagenes/CsharpNivel2.png" alt="Certificado Curso C# nivel 2" class="certificados">
-        </div>
-    </section>
+    </div>
     <footer>
-        <h2>Contactame en:</h2>
+        <h2 id="titulo-footer">Contactame en:</h2>
         <div class="caja-footer" >
             <a href="https://www.linkedin.com/in/rodrigomuri/" target="_blank" >
                 <img src="imagenes/linkedinIcon.png" alt="Visita mi LinkedIn" class="logo">
