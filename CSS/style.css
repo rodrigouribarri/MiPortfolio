@@ -16,8 +16,10 @@ h1{
 }
 h2{
     font-size: 25px;
-    
     padding: 10px;
+}
+h3{
+    font-size: 20px;
 }
 .uno {
     width: 100%;
@@ -88,6 +90,11 @@ h2{
 .cursos{
     text-align: center;
     padding: 10px;
+}
+.proyectos{
+    
+    text-align: center;
+    
 }
 #lista-cursos{
     text-align: start;
